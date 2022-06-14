@@ -1,0 +1,13 @@
+{
+    "request": {
+        "method": "POST",
+        "urlPathPattern": "/addUser/([A-Za-z]*)"
+    },
+    "response": {
+        "status": 200,
+        "body": "Add User ----> Sucsess",
+        "headers": {
+            "Content-Type": "application/json"
+        }
+    }
+}
