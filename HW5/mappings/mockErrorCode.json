@@ -1,0 +1,16 @@
+{
+    "request": {
+        "method": "GET",
+		"url": "/error",
+		"bodyPatterns" : [ {
+			"equalToJson": "{ \"error_code\": 123, \"description\":\"Division by zero\" }"
+		} ]
+    },
+    "response": {
+        "status": 404,
+        "body": "Fatal Error ----> Verified",
+        "headers": {
+            "Content-Type": "application/json"
+        }
+    }
+}
